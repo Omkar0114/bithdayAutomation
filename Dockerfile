@@ -13,8 +13,8 @@ COPY birthdays birthdaysList.csv ./
 
 # Optional: Set environment variables if needed
 # ENV ENV_VAR_NAME=value
-ENV TWILIO_ACCOUNT_SID="AC1308706f534f9bc31af23a3c88a0fd1a"
-ENV TWILIO_AUTH_TOKEN="10c2d4dff201132e6ee42cce6db83bbc"
+ENV TWILIO_ACCOUNT_SID=""
+ENV TWILIO_AUTH_TOKEN=""
 
 
 # Expose port if needed (AWS Lambda doesn't use ports)
